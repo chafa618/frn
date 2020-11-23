@@ -11,3 +11,5 @@
     6. Ejecutar ```pipenv install```
 
     7. Ejecutar ```pipenv run install_modules```
+    
+    8. Ejecutar ```pipenv run python -m ipykernel install --user --name=`pipenv run basename '$VIRTUAL_ENV'` ```
