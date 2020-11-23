@@ -9,10 +9,13 @@ jupyterlab = "*"
 jupyter = "*"
 
 [packages]
+nltk = "*"
 pandas = "*"
 pillow = "*"
-plotly = "*"
-nltk = "*"
+spacy = "2.3"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+install_modules = "python delivery/install_modules.py"
